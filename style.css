@@ -1,0 +1,42 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card-img-top{
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.container{
+    flex: 1;
+}
+
+.card-body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.priceSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#spinner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 74vh;
+    color: #0C6DFD;
+}
